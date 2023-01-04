@@ -54,20 +54,7 @@
       <recent name="com.JavaTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.State">
-    <configuration name="ChainOfResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JavaTest.Patern.Behavioral.ChainOfResponsibility" />
-      <module name="JavaTestConsolProj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.JavaTest.Patern.Behavioral.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NonBlockedStack">
     <configuration name="Command" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JavaTest.Patern.Behavioral.Command" />
       <module name="JavaTestConsolProj" />
@@ -87,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.JavaTest.Patern.Behavioral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBlockedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JavaTest.myltiThreading.NonBlockedStack" />
+      <module name="JavaTestConsolProj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.JavaTest.myltiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonBlockedStack" />
         <item itemvalue="Application.State" />
         <item itemvalue="Application.Observer" />
         <item itemvalue="Application.Iterator" />
         <item itemvalue="Application.Command" />
-        <item itemvalue="Application.ChainOfResponsibility" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +149,9 @@
       <workItem from="1657097131379" duration="14047000" />
       <workItem from="1658237693322" duration="8328000" />
       <workItem from="1658298293638" duration="6447000" />
+      <workItem from="1663070649419" duration="5646000" />
+      <workItem from="1663077327882" duration="1102000" />
+      <workItem from="1663420137103" duration="183000" />
     </task>
     <servers />
   </component>
@@ -167,6 +170,16 @@
           <url>file://$PROJECT_DIR$/src/com/JavaTest/Main3.java</url>
           <line>37</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/JavaTest/myltiThreading/NonBlockedStack.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/JavaTest/myltiThreading/NonBlockedStack.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
