@@ -35,15 +35,27 @@ public class Main {
         } catch(IOException e){
             System.err.println(e.toString());
         }
-        System.out.println("\nВыполняем удаление вызовом remove()...");
+        System.out.println("\nВыполняем удаление вызовом remove() в прямом порядке...");
         long start = System.currentTimeMillis();
 
-        for (int i = m-1; i < m + n-1; i++) {
-            initList.remove(i);
+        for (int i = n; i > 0; i--) {
+            initList.remove(m-1);
         }
 
         long finish = System.currentTimeMillis() - start;
         System.out.println("Время удаления с помощью вызова remove(): " + finish);
+        System.out.println("Размер исходного списка после удаления: " + initList.size());
+
+        System.out.println("\nВыполняем удаление вызовом remove() в обратном порядке...");
+        start = System.currentTimeMillis();
+
+        for (int i = n-1; i >= m-1; i--) {
+            initList.remove(i);
+        }
+
+
+        finish = System.currentTimeMillis() - start;
+        System.out.println("Время удаления с помощью вызова remove() в обратном порядке: " + finish);
         System.out.println("Размер исходного списка после удаления: " + initList.size());
 
         System.out.println("\nВыполняем удаление путем перезаписи...\n");
