@@ -72,7 +72,7 @@ class CutCommand extends absCommand {
 
     @Override
     public boolean execute() {
-        if (editor.textField.getSelectedText().isEmpty()) return false;
+        if (editor.textField.getSelectedText() == null) return false;
 
         backup();
         String source = editor.textField.getText();
