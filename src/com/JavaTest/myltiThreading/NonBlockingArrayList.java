@@ -1,7 +1,6 @@
-package com.JavaTest;
+package com.JavaTest.myltiThreading;
 
 import java.util.Arrays;
-import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 
 

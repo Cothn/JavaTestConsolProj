@@ -1,7 +1,6 @@
-package com.JavaTest;
+package com.JavaTest.myltiThreading;
 
 import java.math.BigInteger;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 

@@ -2,11 +2,9 @@ package com.JavaTest;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
 
 
-public class Main4 {
+public class SymmetricDiffer {
     //позиция, с которой удаляем
     private static int m = 0;
     //количество удаляемых элементов

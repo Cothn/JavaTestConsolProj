@@ -1,4 +1,4 @@
-package com.JavaTest;
+package com.JavaTest.myltiThreading;
 
 public class ManyThreadMain implements Runnable{
     PowerOfTwo powTwo ;

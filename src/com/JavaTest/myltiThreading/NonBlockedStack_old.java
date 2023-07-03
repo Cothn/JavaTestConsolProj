@@ -1,12 +1,9 @@
-package com.JavaTest;
+package com.JavaTest.myltiThreading;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
 
-public class NonBlockedStack<T>{
+public class NonBlockedStack_old<T>{
     private class Element {
         private T value;
         private Element previous;
@@ -16,7 +13,7 @@ public class NonBlockedStack<T>{
     }
     private final AtomicReference<Element> head = new AtomicReference<>(null);
 
-    public NonBlockedStack<T> push (final T value){
+    public NonBlockedStack_old<T> push (final T value){
         final Element current = new Element(value);
 
         Element oldHead;
@@ -45,7 +42,7 @@ public class NonBlockedStack<T>{
 
     public static void main(String[] args) {
 
-        NonBlockedStack<Integer> stack = new NonBlockedStack<Integer>();
+        NonBlockedStack_old<Integer> stack = new NonBlockedStack_old<Integer>();
 
         stack.push(1);
         stack.push(2);
